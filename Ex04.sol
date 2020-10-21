@@ -114,6 +114,8 @@ contract Adder {
 
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.6.0;
+
+
 contract Suber {
     
     function Sub (uint256 nb1, uint256 nb2) public pure returns( uint256){
@@ -127,6 +129,7 @@ contract Suber {
 
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.6.0;
+
 contract Multiplier {
     
     function Multi (uint256 nb1, uint256 nb2) public pure returns( uint256){
@@ -140,6 +143,7 @@ contract Multiplier {
 
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.6.0;
+
 contract Divisor{
     
     function Div(uint256 nb1, uint256 nb2) public pure returns( uint256){
