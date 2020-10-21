@@ -90,6 +90,11 @@ mapping (string => mapping (string => string)) public earth;
 
 5.
 
+
+6.
+
+
+
 7.
 
 // SPDX-License-Identifier: MIT
@@ -118,6 +123,17 @@ contract Suber {
 }
 
 
+9.
+
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.6.0;
+contract Multiplier {
+    
+    function Multi (uint256 nb1, uint256 nb2) public pure returns( uint256){
+    return nb1 * nb2;    
+    }
+    
+}
 
 
 
