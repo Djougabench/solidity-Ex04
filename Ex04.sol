@@ -59,11 +59,11 @@ contract CheckOdd {
     
     function Check(uint  x) public pure returns (bool) {
          if ( x %2 == 0){
-     return false;
+     return false ;
              
          }else{
              
-     return true; }
+     return true  ;  }
  
     }
 }
@@ -86,8 +86,11 @@ earth["Asie"]["Chine"]="Pékin";
 mapping (string => mapping (string => string)) public earth;
 
 
-
 }
+
+5.
+
+
 
 
 
