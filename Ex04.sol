@@ -90,6 +90,32 @@ mapping (string => mapping (string => string)) public earth;
 
 5.
 
+7.
+
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.6.0;
+
+
+contract Adder {
+    
+    function add(uint256 nb1, uint256 nb2) public pure returns( uint256){
+    return nb1 + nb2;    
+    }
+    
+}
+
+
+8.
+
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.6.0;
+contract Suber {
+    
+    function Sub (uint256 nb1, uint256 nb2) public pure returns( uint256){
+    return nb1 - nb2;    
+    }
+    
+}
 
 
 
